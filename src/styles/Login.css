@@ -71,7 +71,6 @@
   text-align: center;
 }
 
-/* Responsive tweaks */
 @media (max-width: 480px) {
   .login-form {
     padding: 1.5rem;

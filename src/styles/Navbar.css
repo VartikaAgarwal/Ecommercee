@@ -72,7 +72,6 @@ body {
   font-size: 1rem;
 }
 
-/* === Mobile styles === */
 .menu-toggle {
   display: none;
   font-size: 1.8rem;
@@ -90,7 +89,7 @@ body {
     flex-direction: column;
     background-color: #fff8ec;
     position: absolute;
-    top: 70px; /* Adjust based on navbar height */
+    top: 70px;
     right: 16px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
     padding: 1rem;

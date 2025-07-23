@@ -53,7 +53,6 @@
   background-color: #5d4037;
 }
 
-/* ✅ Responsive Styling */
 @media (max-width: 768px) {
   .checkout-container {
     padding: 1.5rem 1rem;

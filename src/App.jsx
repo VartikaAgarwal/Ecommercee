@@ -20,12 +20,9 @@ const App = () => {
         <Router>
           <Navbar />
           <Routes>
-            {/* 🔓 Public Routes */}
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/forgot-password" element={<ForgotPassword />} />
-
-            {/* 🔐 Protected Routes */}
             <Route path="/" element={<PrivateRoute><Home /></PrivateRoute>} />
             <Route path="/products" element={<PrivateRoute><ProductList /></PrivateRoute>} />
             <Route path="/cart" element={<PrivateRoute><Cart /></PrivateRoute>} />

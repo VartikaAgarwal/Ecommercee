@@ -114,7 +114,6 @@
   background-color: #5d4037;
 }
 
-/* ✅ Responsive adjustments */
 @media (max-width: 768px) {
   .cart-item {
     flex-direction: column;
